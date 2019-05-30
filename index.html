@@ -6,14 +6,16 @@
     <title>About | Candido Regis</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="../Bootstrap-Portfolio-master/style.css">
+    <link rel="stylesheet" type="text/css" href="../Bootstrap-Portfolio/css/style.css">
 </head>
 
 
 <body>
     <!-- Navbar - itens foram colocados para direita usando justify-content-end -->
     <nav class="navbar navbar-expand-md fixed-top border-dark border-bottom navbar-custom">
-        <a class="navbar-brand" href="#"><h1>Candido Regis</h1></a>
+        <a class="navbar-brand" href="#">
+            <h1>Candido Regis</h1>
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
             aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -22,13 +24,14 @@
         <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarCollapse">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="../Bootstrap-Portfolio-master/index.html">About <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="../Bootstrap-Portfolio/index.html">About <span
+                            class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../Bootstrap-Portfolio-master/portfolio.html">Portfolio</a>
+                    <a class="nav-link" href="../Bootstrap-Portfolio/htm/portfolio.html">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../Bootstrap-Portfolio-master/contact.html">Contact</a>
+                    <a class="nav-link" href="../Bootstrap-Portfolio/htm/contact.html">Contact</a>
                 </li>
             </ul>
 
@@ -36,13 +39,13 @@
     </nav>
 
     <main class="container">
-        <div class="row mainPage">
-            <div class="col-sm"></div>
-            <div class="col-8" style="border: 1px solid grey;">
+        <div class="row justify-content-center">
+            <!-- <div class="col-sm"></div> -->
+            <div class="col-8 p-3 mainPage">
                 <h1 class="m-3">About</h1>
                 <hr class="mb-4">
-                <img src="https://dummyimage.com/250x200/000/fff" class="auth-image rounded float-left img-thumbnail" style="margin: 10px;" alt="about me picture"
-                    id="aboutMePic">
+                <img src="https://dummyimage.com/250x200/000/fff" class="auth-image rounded float-left img-thumbnail"
+                    style="margin: 10px;" alt="about me picture" id="aboutMePic">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pellentesque risus velit, vel iaculis
                     sapien semper vel. Sed at dapibus justo. Quisque tincidunt tincidunt sapien id sollicitudin.
                     Vestibulum
@@ -70,19 +73,15 @@
                     convallis feugiat. In nec ex nec enim ultrices ornare pulvinar in leo. Maecenas vitae magna eros.
                 </p>
             </div>
-            <div class="col-sm"></div>
+            <!-- <div class="col-sm"></div> -->
         </div>
     </main>
 
-    <footer class="footer fixed-bottom footer-custom" style="border-top: solid 5px blue; background-color: white;">
+    <footer class="footer fixed-bottom footer-custom">
         <div class="container">
             <span class="text-muted">Copyright &copy;</span>
         </div>
-        </div>
-
-
     </footer>
-
 
 </body>
 
