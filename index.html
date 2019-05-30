@@ -3,65 +3,87 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>About | Your Name</title>
+    <title>About | Candido Regis</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="../Bootstrap-Portfolio/style.css">
+    <link rel="stylesheet" type="text/css" href="../Bootstrap-Portfolio-master/style.css">
 </head>
 
 
 <body>
     <!-- Navbar - itens foram colocados para direita usando justify-content-end -->
-    <nav class="navbar navbar-custom navbar-expand-lg border-dark border-bottom">
-
-        <a class="navbar-brand" href="#" style="padding-left: 100px">Candido Regis</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-md fixed-top border-dark border-bottom navbar-custom">
+        <a class="navbar-brand" href="#"><h1>Candido Regis</h1></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse justify-content-end" style="padding-right: 100px" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">About</a>
-                <a class="nav-item nav-link" href="#">Portfolio</a>
-                <a class="nav-item nav-link" href="#">Contact</a>
-            </div>
+        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarCollapse">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../Bootstrap-Portfolio-master/index.html">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../Bootstrap-Portfolio-master/portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../Bootstrap-Portfolio-master/contact.html">Contact</a>
+                </li>
+            </ul>
+
         </div>
     </nav>
 
-    </div>
+    <main class="container">
+        <div class="row mainPage">
+            <div class="col-sm"></div>
+            <div class="col-8" style="border: 1px solid grey;">
+                <h1 class="m-3">About</h1>
+                <hr class="mb-4">
+                <img src="https://dummyimage.com/250x200/000/fff" class="auth-image rounded float-left img-thumbnail" style="margin: 10px;" alt="about me picture"
+                    id="aboutMePic">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pellentesque risus velit, vel iaculis
+                    sapien semper vel. Sed at dapibus justo. Quisque tincidunt tincidunt sapien id sollicitudin.
+                    Vestibulum
+                    pellentesque efficitur elit, in faucibus sapien semper in. Curabitur a nibh est. Nam iaculis tortor
+                    vel
+                    dolor hendrerit fermentum. Curabitur porta accumsan sem pretium ullamcorper. Curabitur lacinia velit
+                    et
+                    convallis feugiat. In nec ex nec enim ultrices ornare pulvinar in leo. Maecenas vitae magna eros.
+                </p>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <section>
+                <p>Phasellus vel aliquet quam. Etiam eget iaculis felis, id aliquet dolor. Nulla ut leo
+                    faucibus, iaculis eros a, congue metus. Suspendisse semper est ac consequat faucibus. Aliquam
+                    consectetur justo et ante ornare egestas. Aliquam gravida semper mollis. Cras eleifend eleifend
+                    sapien
+                    et sollicitudin. Nunc at magna elit. Pellentesque condimentum turpis in arcu tempus, et congue purus
+                    fringilla</p>
 
-                </section>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pellentesque risus velit, vel iaculis
+                    sapien semper vel. Sed at dapibus justo. Quisque tincidunt tincidunt sapien id sollicitudin.
+                    Vestibulum
+                    pellentesque efficitur elit, in faucibus sapien semper in. Curabitur a nibh est. Nam iaculis tortor
+                    vel
+                    dolor hendrerit fermentum. Curabitur porta accumsan sem pretium ullamcorper. Curabitur lacinia velit
+                    et
+                    convallis feugiat. In nec ex nec enim ultrices ornare pulvinar in leo. Maecenas vitae magna eros.
+                </p>
             </div>
+            <div class="col-sm"></div>
+        </div>
+    </main>
+
+    <footer class="footer fixed-bottom footer-custom" style="border-top: solid 5px blue; background-color: white;">
+        <div class="container">
+            <span class="text-muted">Copyright &copy;</span>
+        </div>
         </div>
 
-        <div class="row">
-            <div class="col-sm-12">
-                <footer>
 
-                </footer>
-            </div>
-        </div>
-    </div>
-    <footer class="footer mt-auto py-3">
-            <div class="container">
-              <span class="text-muted">Place sticky footer content here.</span>
-            </div>
-          </footer>
+    </footer>
+
+
 </body>
 
 </html>
